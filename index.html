@@ -5,56 +5,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/main.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Montserrat&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/34e5f5c5db.js" crossorigin="anonymous"></script>
   <title>Martin's Aquarium</title>
 </head>
 <body class="aquarium__body">
   <div class="aquarium--header">
-    <logo class="logo__img" img src="xxx"></logo>
+    <i class="fas fa-fish fa-4x"></i>
     <h1 class="aquarium__h1">Martin's Aquarium</h1>
   </div>
-  <div class="aquarium--left">
-    <article class="aquarium__article">
-      <section class="fish--friends__section">
-        <h2 class="fish--friends__h2">FiSH FRIENDS</h2>
-        <img class="fish--friends__img1" src="fish1">
-        <h3 class="fish--friends__h3">KOI</h3>
-        <p class="fish--friends__p">
-           Name: Akio
-           Species: Cyprinus rubrofuscus
-           Origin: Kyoto
-           Diet: algae, plants, insects, worms, seeds
-           Length: 24"
-        </p>
-        <img class="fish--friends__img2" src="fish2">
-        <h3 class="fish--friends__h3">ANGELFISH</h3>
-        <p class="fish--friends__p">
-           Name: Valentina
-           Species: Cichlidae
-           Origin: Amazon Basin
-           Diet: worms and small crustaceans
-           Length: 6"
-        </p>
-      </section>
-      <section class="travel--tips__section">
-        <h2 class="travel--tips__section__h2">TRAVEL TIPS</h2>
-        <p class="travel--tips__p">
-           “There’s not much to packing a rod, but there’s a little more to landing in Alaska with your favorite fly fishing gear intact and ready to go. As long as  you stay organized, get along with security and don’t lose any luggage, how hard can it be?"
-        </p>
-        <p class="travel--tips--author__p">
-          John Clark  
-        </p>
-        <p class="travel--tips--city__p">
-          Bristol Bay, AK
-        </p>
-      </section>
-      <section class="fishing--destinations__section">
-        <h2 class="fish--friends__h2">FiSHING DESTINATIONS</h2>
-        <ul class="fishing--destinations__ul">
-          <li class="fishing--destinations__li">Kyoto, Japan</li>
-          <li class="fishing--destinations__li">Boa Vista, Brazil</li>
-        </ul>
-      </section>
-  </div>
+  <main class="aquarium__main">
+    <div class="aquarium--left">
+      <article class="aquarium__article">
+        <section class="fish--friends__section">
+          <h2 class="fish--friends__h2">FiSH FRIENDS</h2>
+
+          <img class="fish--friends__img1" src="images/Koi.webp" alt="Image of red, yellow and white spotted Koi fish" width="500" height="300">
+          <h3 class="fish--friends__h3">KOI</h3>
+          <p class="fish--friends__name">Name: Akio</p>
+          <p class="fish--friends__species">Species: Cyprinus rubrofuscus</p>
+          <p class="fish--friends__origin">Origin: Kyoto</p>
+          <p class="fish--friends__diet">Diet: algae, plants, insects, worms, seeds</p>
+          <p class="fish--friends__length">Length: 24"</p>
+
+          <img class="fish--friends__img2" src="images/angelfish.jpeg" alt="Image of two lavender angelfish" width="500" height="300">
+          <h3 class="fish--friends__h3">ANGELFISH</h3>
+          <p class="fish--friends__name">Name: Valentina</p>
+          <p class="fish--friends__species">Species: Cichlidae</p>
+          <p class="fish--friends__origin">Origin: Amazon Basin</p>
+          <p class="fish--friends__diet">Diet: worms and small  crustaceans</p>
+          <p class="fish--friends__length">Length: 6"</p>
+        </section>
+        <section class="travel--tips__section">
+          <h2 class="travel--tips__section__h2">TRAVEL TIPS</h2>
+          <p class="travel--tips__p">
+            “There’s not much to packing a rod, but there’s a little more to landing in Alaska with your favorite fly fishing gear intact and ready to go. As long as  you stay organized, get along with security and don’t lose any luggage, how hard can it be?"
+          </p>
+          <p class="travel--tips--author__p">
+            John Clark  
+          </p>
+          <p class="travel--tips--city__p">
+            Bristol Bay, AK
+          </p>
+        </section>
+        <section class="fishing--destinations__section">
+          <h2 class="fish--friends__h2">FiSHING DESTINATIONS</h2>
+          <ul class="fishing--destinations__ul">
+            <li class="fishing--destinations__li">Kyoto, Japan</li>
+            <li class="fishing--destinations__li">Boa Vista, Brazil</li>
+          </ul>
+        </section>
+    </div>
   <div class="aquarium--right">
     <aside class="aquarium__aside">
       <h2 class="tank-tips__h2">TANK TIPS</h2>
@@ -68,6 +71,7 @@
         </p>
       </aside>
     </div>
+  </main>
     <footer class="aquarium__footer">Copyright 2021</footer>
   </body>
 </html>

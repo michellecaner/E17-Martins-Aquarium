@@ -1,3 +1,15 @@
-.fishType {
-  
+.aquarium__body {
+  background-color:lightblue;
+}
+
+.aquarium--header {
+  background-color: palegreen;
+}
+
+.aquarium--left {
+  background-color: pink;
+}
+
+.aquarium--right {
+  background-color: palegoldenrod;
 }

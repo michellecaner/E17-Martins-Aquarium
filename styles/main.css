@@ -1,15 +1,60 @@
+
+
+.aquarium__main {
+display: flex;
+}
+
 .aquarium__body {
-  background-color:lightblue;
+  background-color: #555b6e;
 }
 
 .aquarium--header {
-  background-color: palegreen;
+  background-color: #89b0ae;
+  display: flex;
+  flex-direction: row;
+}
+
+.fas {
+ margin: 1rem;
+}
+
+.aquarium__h1 {
+  font-size: 2.5em;
+}
+
+.aquarium__h1 ,
+.fish--friends__h2 ,
+.travel--tips__section__h2 ,
+.tank-tips__h2 ,
+.aquarium__footer {
+  font-family: 'Bungee Inline', cursive;
+}
+
+h3 , p , ul {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .aquarium--left {
-  background-color: pink;
+  background-color: #bee3db;
+  flex: 3;
+}
+
+.fish--friends__section {
+  padding: 2rem;
+  margin: 1rem;
 }
 
 .aquarium--right {
-  background-color: palegoldenrod;
+  background-color: #ffd6ba;
+  flex: 1;
+}
+
+.aquarium__aside {
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.aquarium__footer {
+  background-color: #89b0ae;
+  text-align: center;
 }

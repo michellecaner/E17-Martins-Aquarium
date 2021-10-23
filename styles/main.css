@@ -5,11 +5,11 @@ display: flex;
 }
 
 .aquarium__body {
-  background-color: #555b6e;
+  background-color: #264653;
 }
 
 .aquarium--header {
-  background-color: #89b0ae;
+  background-color: #2a9d8f;
   display: flex;
   flex-direction: row;
 }
@@ -34,18 +34,34 @@ h3 , p , ul {
   font-family: 'Montserrat', sans-serif;
 }
 
+h3 {
+  font-weight: bold;
+  text-decoration: black underline;
+  text-decoration-thickness: 2px;
+}
+
 .aquarium--left {
-  background-color: #bee3db;
+  background-color: #e9c46a;
   flex: 3;
 }
 
-.fish--friends__section {
-  padding: 2rem;
+.fish--friends__section ,
+.travel--tips__section , 
+.fishing--destinations__section {
   margin: 1rem;
 }
 
+.fish--friends__length {
+  margin-bottom: 3rem;
+}
+
+.travel--tips--author__p , 
+.travel--tips--city__p {
+  font-style: italic;
+}
+
 .aquarium--right {
-  background-color: #ffd6ba;
+  background-color: #f4a261;
   flex: 1;
 }
 
@@ -54,7 +70,9 @@ h3 , p , ul {
   margin: 1rem;
 }
 
+
 .aquarium__footer {
-  background-color: #89b0ae;
+  background-color: #2a9d8f;
   text-align: center;
+  padding: 1rem;
 }
